@@ -1,0 +1,24 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.rating-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rating-container .rating-star {
+    font-size: 24px;
+    color: #FFD700;
+    cursor: pointer;
+}
+
+.rating-container .rating-star:hover {
+    color: #FFA500;
+}
+
+.rating-container .selected {
+    color: #FFA500;
+}

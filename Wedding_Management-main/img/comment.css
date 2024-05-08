@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #f2f2f2;
+}
+.container{
+    background: #fff;
+    padding: 20px;
+    font-family: monospace;
+    width: 500px;
+    box-shadow: 0 0 5px #000;
+    
+}
+.head {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.text{
+    margin: 10px 0;
+    font-family: sans-serif;
+    font-size: 0.9em;
+
+}
+.commentbox{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.commentbox > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 20px;
+    object-fit: cover;
+    object-position: center;
+
+}
